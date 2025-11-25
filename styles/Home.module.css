@@ -1,0 +1,56 @@
+.main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #eee;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #e50914; /* Netflix red vibe */
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.post {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(229, 9, 20, 0.3);
+}
+
+.postImage {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.postTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #e50914;
+  font-weight: 600;
+}
+
+.postDate {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.postContent {
+  font-size: 1rem;
+  line-height: 1.4;
+}
